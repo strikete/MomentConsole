@@ -26,7 +26,19 @@
 		<artifactId>guava</artifactId>
 		<version>30.0-jre</version>
   	</dependency>
+  	<dependency>
+  		<groupId>com.strikete</groupId>
+  		<artifactId>DMXLibrary</artifactId>
+  		<version>1.0.0</version>
+  	</dependency>
   </dependencies>
+   <repositories>
+  	<repository>
+  		<id>DMXLibrary</id>
+  		<name>DMX Library</name>
+  		<url>file://${project.basedir}/libs</url>
+  	</repository>
+  </repositories>
   <build>
 	<plugins>
 		<plugin>
